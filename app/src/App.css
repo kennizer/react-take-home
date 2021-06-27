@@ -1,33 +1,56 @@
-.App {
+.header {
   text-align: center;
+  font-size: 36px;
+}
+.campaign-header {
+  border-top: 0.5px rgb(211, 203, 203) solid; 
+  border-bottom: 0.5px rgb(211, 203, 203) solid;
+  padding-top: 30px;
+}
+.campaign-row-top {
+  padding-bottom: 30px
+
+}
+.green {
+  color: green;
+}
+.cropped-header {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+  object-position: 20% 10%; 
+  overflow:hidden; 
+  border-radius: 25%
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.col-no-padding {
+  padding-left: 0;
+  padding-right: 0px
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cropped-png-video {
+  width: 100px; 
+  height: 400px; 
+  object-fit: cover;
+  opacity: 75%;
+  overflow:hidden; 
 }
-
-.App-link {
-  color: #61dafb;
+.cropped-play-video {
+  position: relative;
+  width: 100px; 
+  height: 400px; 
+  overflow:hidden; 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cropped-png-photo {
+  width: 100px; 
+  height: 400px; 
+  object-fit: cover;
+}
+.downloadCopyTop {
+  padding-top: 32px;
+}
+.downloadCopy {
+  width: 50px; 
+  height: 50px;
+  border: 0.5px solid lightblue;
+  display: inline-flex;
 }
